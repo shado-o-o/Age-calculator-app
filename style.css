@@ -1,0 +1,148 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+     background-color: aliceblue;
+}
+.container{
+    width: 50%;
+    background-color: white;
+    height: 70%;
+    border-radius: 12px;
+    border-bottom-right-radius: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+}
+.input-aga{
+    width: 100%;
+    height: 20%;
+    display: flex;
+   align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+.input-aga div{
+    width: 17%;
+    padding: 5px;
+    margin-left: 20px;
+}
+.input-aga label{
+    font-size: 14px;
+}
+.input-aga input{
+
+    
+    width: 80%;
+    height: 25px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid rgba(83, 80, 80, 0.795);
+    
+    padding-left: 5px;
+}
+.input-aga input:focus{
+     border: 2px solid black;
+}
+
+
+.btn-aga{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.btn-aga .line{
+    height: 1px;
+    width: 80%;
+    background-color: black;
+}
+.btn-aga .btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: hsl(259, 100%, 65%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-aga .btn:active{
+    background-color: black;
+}
+
+
+
+
+
+
+
+.output-aga{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.output-aga .output{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   height: 100%;
+}
+.output-aga .output h1{
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    font-weight: 800;
+}
+.output-aga .output .outvalue{
+    margin-left: 10px;
+    margin: 0;
+    padding: 0;
+    color: hsl(259, 100%, 65%);
+    font-size: 80px;
+    font-weight: 800;
+}
+.error p{
+    color: red;
+    font-weight: 100 !important;
+    font-size: 10px !important;
+}
+.attribution{
+    position: absolute;
+    bottom: 10px;
+}
+@media screen and (max-width:375px) {
+    .container{
+        width: 90%;
+    }
+    .input-aga div{
+        width: 25%;
+    }
+    .btn-aga .line{
+        width: 70%;
+    }
+    .output-aga .output h1{
+        margin: 0;
+        padding: 0;
+        font-size: 60px;
+        font-weight: 800;
+    }
+    .output-aga .output .outvalue{
+        margin-left: 10px;
+        margin: 0;
+        padding: 0;
+        color: hsl(259, 100%, 65%);
+        font-size: 60px;
+        font-weight: 800;
+    }
+}
